@@ -1,4 +1,5 @@
-image logo
+
+![money-quiz](https://github.com/user-attachments/assets/05e17631-df46-4101-b1e5-63fe83e964fe)
 
 # The Money Quiz
 
