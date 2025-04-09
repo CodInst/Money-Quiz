@@ -70,7 +70,7 @@ All semi-colons checked.<br><br>
 ## Testing Project with Sandbox:
 The project has been tested via a sandbox:
 
-https://codinst.github.io/Money-Q/
+https://codinst.github.io/Money-Q/<br>
 https://github.com/CodInst/Money-Q
 
 ## Credits
