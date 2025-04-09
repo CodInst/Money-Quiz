@@ -1,0 +1,19 @@
+/* fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Asset&family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* 
+Logo Text - Asset
+Menu Text - Economica
+Header Text - Economica
+Body Text - Economica
+*/
+
+/*  -----------------CSS Variables ----------------- */
+:root {
+  /* Font */
+  --font-logo: "Asset", serif;
+  --font-menuheadingbody: "Economica", serif;
+  --bodytext-color: #000000; /* Color Font */
+  --highlight-color: #ead615; /* Highlight Color */
+  --boxbackground-color: rgb(200, 201, 204, 0.1); /* #c8c9cc grey */
+  --contrasting-color: #1a4b82; /* dark blue */
+}
