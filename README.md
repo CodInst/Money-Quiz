@@ -7,7 +7,7 @@ The quiz contains 20 questions displayed randomly.
 
 ![Responsive image for index.html](https://github.com/user-attachments/assets/ceae7110-ca24-4830-8b01-daaba7eaf255)
 
-Multiple display page 2
+![Responsive image for quiz.html](https://github.com/user-attachments/assets/376c51f1-79e2-4b43-b1b9-c26d9ee3dead)
 
 ## Features HTML/CSS/BootStrap
 
