@@ -10,10 +10,6 @@ The quiz contains 20 questions displayed randomly.
 
 ![Responsive image for quiz.html](https://github.com/user-attachments/assets/376c51f1-79e2-4b43-b1b9-c26d9ee3dead)
 
-## Design
-
-
-
 ## Features HTML/CSS/BootStrap
 
 -A distinctive and customised logo (See above).<br>
