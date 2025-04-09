@@ -46,12 +46,12 @@ The JavaScript code contains:<br>
 ## Testing with Chrome Lighthouse:
 
 <strong>.The page "index.html"</strong><br><br>
-(Main Image)<br><br>
-<strong>.Comment:</strong> The colors used are intended.
+![index.html](https://github.com/user-attachments/assets/f42e5f00-7c12-4dc6-bbc9-87914bee7f6c)<br><br>
+Comment: The colors used are intended.
 
 <strong>.The page "quiz.html</strong><br><br>
 ![quiz.html](https://github.com/user-attachments/assets/073666a8-ba64-4339-9e61-f59dd829b65a)<br><br>
-<strong>.Comment:</strong> The colors used are intended.
+Comment: The colors used are intended.
 
 ## Testing JavaScript with Js Hint:
 
