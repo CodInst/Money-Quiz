@@ -31,10 +31,10 @@ The JavaScript code contains:<br>
 
 ## Testing with W3C HTML
 
-.The page "index.html" contains no error.
+.The page "index.html" contains no error.<br>
 ![index.html](https://github.com/user-attachments/assets/0f131ba6-51d4-4273-8f6a-5f88c36db867)
-
-.The page "quiz.html" contains no error.
+<br>
+.The page "quiz.html" contains no error.<br>
 ![quiz.html](https://github.com/user-attachments/assets/8251afb8-0900-4224-92e5-70b953a16a00)
 
 ## Testing with CSS
