@@ -5,7 +5,8 @@ image logo
 The Money Quiz will test your general knowledge about key historical events that have shaped our modern economic system.
 The quiz contains 20 questions displayed randomly.
 
-Multiple display page 1
+![Image](https://github.com/user-attachments/assets/ceae7110-ca24-4830-8b01-daaba7eaf255)
+
 Multiple display page 2
 
 ## Features HTML/CSS/BootStrap
