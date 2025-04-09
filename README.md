@@ -12,17 +12,15 @@ The quiz contains 20 questions displayed randomly.
 ## Features HTML/CSS/BootStrap
 
 -A distinctive and customised logo (See above).
-
-- An extensive, responsive and colourful website and menu:
+-An extensive, responsive and colourful website and menu:
 The website combined HTML, CSS and bootstrap
-
-Include an image
+![Menu bootstrap](https://github.com/user-attachments/assets/4c9701b7-154a-42ab-b84c-4c954aa5cf39)
 
 -The website contains two pages:
-.One page describing the rules and the nature of teh quiz
-.One page tu run the quiz
+One page describing the rules and the nature of teh quiz
+One page tu run the quiz
 
-Include 2 images
+
 
 ## Features JavaScript
 
