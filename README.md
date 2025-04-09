@@ -24,10 +24,10 @@ One page to run the quiz
 
 ## Features JavaScript
 
-The JavaScript code contains:
-.10 functions
-.Only one function with one argument
-.One global variable
+The JavaScript code contains:<br>
+.10 functions<br>
+.Only one function with one argument<br>
+.One global variable<br>
 
 ## Testing with W3C HTML
 
