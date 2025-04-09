@@ -65,7 +65,38 @@
             </div>
         </div>
     </header>
-    <!-- Main-->
+    <main>
+        <!--Game Section -->
+        <div class="container overflow-hidden">
+            <div class="row boxbackgroundcolor rounded gy-3 mb-2 pb-4 mx-2">
+                <div class="game-area">
+                    <div class="full-name">
+                        <form id="createAccountForm">
+                            <label for="fullname">Enter your name:</label>
+                            <input id="fullname" type="text" placeholder="Full Name" class="rounded-pill border border-success mt-3" name="fullNameField" required>
+                            <button class="btn btn-primary btn-sm">Validate</button>
+                        </form>
+                        <p id="feedbackName"></p>
+                    </div>
+                    <div>
+                        <span class="left"><i class="fa fa-quote-left" aria-hidden="true"></i></span><br>
+                        <span id="question"></span><br>
+                        <span class="right"><i class="fa fa-quote-right" aria-hidden="true"></i></span>
+                        <input id="answer-box" type="number" placeholder="YYYY" class="rounded-pill border border-success mt-3">
+                    </div>
+                    <div class="text-center">
+                    <button id="display-question" class="btn btn-primary btn-sm">Display Question</button>
+                    <button id="check-answer" class="btn btn-primary btn-sm">Check Answer</button>
+                </div>
+                </div>
+
+                <div class="score-area">
+                    <p class="scoring">Correct answers <span id="rightAnswer">0</span></p>
+                    <p class="scoring">Incorrect answers <span id="wrongAnswer">0</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
      
     <!-- Footer -->
     <!-- mt-auto added to push footer to the bottom of the page -->
