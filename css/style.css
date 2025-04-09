@@ -17,3 +17,91 @@ Body Text - Economica
   --boxbackground-color: rgb(200, 201, 204, 0.1); /* #c8c9cc grey */
   --contrasting-color: #1a4b82; /* dark blue */
 }
+
+/*  -----------------Global styles ----------------- */
+/* Body - Font and Color */
+body {
+    background-color: #ffffff;
+    font: var(--font-menuheadingbody);
+    font-size: 18px;
+    color: var(--bodytext-color);
+  }
+  
+  /* Logo - Font and size*/
+  .logotext {
+    font-family: var(--font-logo);
+    font-weight: 700;
+    color: var(--highlight-color);
+  }
+  
+  /* Menu - Font and size*/
+  .menutext {
+    font-family: var(--font-menuheadingbody);
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  
+  /* Heading - Font and size */
+  .headingtext {
+    font-family: var(--font-menuheadingbody);
+    font-weight: 700;
+    line-height: 2rem;
+    font-size: 1.25rem;
+  }
+  
+  /* Navbar */
+  #menu {
+    background-color: var(--contrasting-color);
+  }
+  
+  #menu .navbar-brand {
+    color: var(--highlight-color);
+  }
+  
+  #menu .navbar-brand a:hover {
+    color: initial; /* Takes initial value of the property */
+  }
+  
+  /* Background for sections */
+  .boxbackgroundcolor {
+    background-color: var(--boxbackground-color);
+  }
+
+  /*  -----------------Other styles ----------------- */
+h1 {
+    color: var(--contrasting-color);
+  }
+  
+  .spacingsection {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* ----------------- Screen Re-sizing ----------------------- */
+/* Medium devices (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Logo - Font and size */
+    .logotext {
+      font-size: 1.5rem;
+    }
+  
+    /* Heading - Font and size */
+    .headingtext {
+      font-family: var(--font-menuheadingbody);
+      font-weight: 700;
+      font-size: 2rem;
+    }
+  
+    /* Navbar */
+    #menu .dropdown-item {
+      text-align: left;
+    }
+}
+
+/* large and extra large devices (992px and up) */
+@media screen and (min-width: 992px) {
+    /* Game Section Customisation */
+    .game-area i {
+      font-size: 5rem;
+    }
+}
