@@ -15,7 +15,7 @@ The quiz contains 20 questions displayed randomly.
 -An extensive, responsive and colourful website and menu: The website combined HTML, CSS and bootstrap
 ![Menu bootstrap](https://github.com/user-attachments/assets/4c9701b7-154a-42ab-b84c-4c954aa5cf39)
 
--The website contains two pages:<br>
+-The website contains <strong>two pages</strong>:<br>
 One page describing the rules and the nature of the quiz
 ![Describe the rules](https://github.com/user-attachments/assets/44c04d94-567a-41a5-bd41-9c62226901d1)
 
@@ -32,12 +32,10 @@ The JavaScript code contains:<br>
 ## Testing with W3C HTML
 
 .The page "index.html" contains no error.
-
-(image)
+![index.html](https://github.com/user-attachments/assets/0f131ba6-51d4-4273-8f6a-5f88c36db867)
 
 .The page "quiz.html" contains no error.
-
-(image)
+![quiz.html](https://github.com/user-attachments/assets/8251afb8-0900-4224-92e5-70b953a16a00)
 
 ## Testing with CSS
 
