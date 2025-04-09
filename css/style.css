@@ -21,87 +21,251 @@ Body Text - Economica
 /*  -----------------Global styles ----------------- */
 /* Body - Font and Color */
 body {
-    background-color: #ffffff;
-    font: var(--font-menuheadingbody);
-    font-size: 18px;
-    color: var(--bodytext-color);
-  }
-  
-  /* Logo - Font and size*/
+  background-color: #ffffff;
+  font: var(--font-menuheadingbody);
+  font-size: 18px;
+  color: var(--bodytext-color);
+}
+
+/* Logo - Font and size*/
+.logotext {
+  font-family: var(--font-logo);
+  font-weight: 700;
+  color: var(--highlight-color);
+}
+
+/* Menu - Font and size*/
+.menutext {
+  font-family: var(--font-menuheadingbody);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+/* Heading - Font and size */
+.headingtext {
+  font-family: var(--font-menuheadingbody);
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+/* Navbar */
+#menu {
+  background-color: var(--contrasting-color);
+}
+
+#menu .navbar-brand {
+  color: var(--highlight-color);
+}
+
+#menu .navbar-brand a:hover {
+  color: initial; /* Takes initial value of the property */
+}
+
+/* Background for sections */
+.boxbackgroundcolor {
+  background-color: var(--boxbackground-color);
+}
+
+/* Game Section Customization Change now*/
+.game-area span {
+  display: block;
+}
+
+.full-name {
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+#fullname {
+  height: 35px;
+  width: 200px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+#feedbackName {
+  font-style: initial;
+  font-weight: initial;
+}
+
+.game-area i {
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--contrasting-color);
+}
+
+.left {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.right {
+  text-align: right;
+  padding-right: 20px;
+}
+
+#question {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0px 2px;
+}
+
+#answer-box {
+  height: 35px;
+  width: 200px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+input::placeholder {
+  opacity: 0.1;
+  color: var(--bodytext-color);
+}
+
+.btn {
+  margin: 10px auto;
+}
+
+.btn-primary {
+  --bs-btn-color: var(--highlight-color);
+  --bs-btn-bg: var(--contrasting-color);
+  --bs-btn-border-color: var(--contrasting-color);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+}
+
+.score-area {
+  text-align: center;
+}
+
+.scoring {
+  margin: auto;
+  display: inline-block;
+  padding: 0px 10px;
+  font: var(--font-logo);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+#rightAnswer {
+  color: green;
+}
+
+#wrongAnswer {
+  color: red;
+}
+
+/* Footer - Font, color and size */
+#footer {
+  background-color: var(--contrasting-color);
+  color: var(--menufootertext-color);
+  padding-bottom: 1rem;
+}
+
+/*  -----------------Other styles ----------------- */
+h1 {
+  color: var(--contrasting-color);
+}
+
+.spacingsection {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* ----------------- Screen Re-sizing ----------------------- */
+/* Medium devices (768px and up) */
+@media screen and (min-width: 768px) {
+  /* Logo - Font and size */
   .logotext {
-    font-family: var(--font-logo);
-    font-weight: 700;
-    color: var(--highlight-color);
+    font-size: 1.5rem;
   }
-  
-  /* Menu - Font and size*/
-  .menutext {
-    font-family: var(--font-menuheadingbody);
-    font-weight: 700;
-    font-size: 1.4rem;
-  }
-  
+
   /* Heading - Font and size */
   .headingtext {
     font-family: var(--font-menuheadingbody);
     font-weight: 700;
-    line-height: 2rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
-  
+
   /* Navbar */
-  #menu {
-    background-color: var(--contrasting-color);
-  }
-  
-  #menu .navbar-brand {
-    color: var(--highlight-color);
-  }
-  
-  #menu .navbar-brand a:hover {
-    color: initial; /* Takes initial value of the property */
-  }
-  
-  /* Background for sections */
-  .boxbackgroundcolor {
-    background-color: var(--boxbackground-color);
+  #menu .dropdown-item {
+    text-align: left;
   }
 
-  /*  -----------------Other styles ----------------- */
-h1 {
-    color: var(--contrasting-color);
-  }
-  
-  .spacingsection {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  /* Game Section Customisation */
+  .game-area i {
+    font-size: 4rem;
   }
 
-  /* ----------------- Screen Re-sizing ----------------------- */
-/* Medium devices (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Logo - Font and size */
-    .logotext {
-      font-size: 1.5rem;
-    }
-  
-    /* Heading - Font and size */
-    .headingtext {
-      font-family: var(--font-menuheadingbody);
-      font-weight: 700;
-      font-size: 2rem;
-    }
-  
-    /* Navbar */
-    #menu .dropdown-item {
-      text-align: left;
-    }
+  .left {
+    padding-left: 30px;
+  }
+
+  .right {
+    padding-right: 30px;
+  }
+
+  #question {
+    font-size: 1.3rem;
+    padding: 0px 50px;
+  }
+
+  #answer-box {
+    height: 40px;
+    width: 300px;
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1.1rem;
+  }
+
+  .scoring {
+    padding: 0px 50px;
+    font-size: 1.3rem;
+  }
 }
 
 /* large and extra large devices (992px and up) */
 @media screen and (min-width: 992px) {
-    /* Game Section Customisation */
-    .game-area i {
-      font-size: 5rem;
-    }
+  /* Game Section Customisation */
+  .game-area i {
+    font-size: 5rem;
+  }
+
+  .left {
+    padding-left: 40px;
+  }
+
+  .right {
+    padding-right: 40px;
+  }
+
+  #question {
+    font-size: 1.5rem;
+    padding: 0px 100px;
+  }
+
+  #answer-box {
+    height: 45px;
+    width: 300px;
+    font-size: 2rem;
+  }
+
+  .scoring {
+    padding: 0px 100px;
+    font-size: 1.7rem;
+  }
+
 }
