@@ -74,7 +74,8 @@
                     <div class="full-name">
                         <form id="createAccountForm">
                             <label for="fullname">Enter your name:</label>
-                            <input id="fullname" type="text" placeholder="Full Name" class="rounded-pill border border-success mt-3" name="fullNameField" required>
+                            <input id="fullname" type="text" placeholder="Full Name"
+                                class="rounded-pill border border-success mt-3" name="fullNameField" required>
                             <button class="btn btn-primary btn-sm">Validate</button>
                         </form>
                         <p id="feedbackName"></p>
@@ -83,12 +84,13 @@
                         <span class="left"><i class="fa fa-quote-left" aria-hidden="true"></i></span><br>
                         <span id="question"></span><br>
                         <span class="right"><i class="fa fa-quote-right" aria-hidden="true"></i></span>
-                        <input id="answer-box" type="number" placeholder="YYYY" class="rounded-pill border border-success mt-3">
+                        <input id="answer-box" type="number" placeholder="YYYY"
+                            class="rounded-pill border border-success mt-3">
                     </div>
                     <div class="text-center">
-                    <button id="display-question" class="btn btn-primary btn-sm">Display Question</button>
-                    <button id="check-answer" class="btn btn-primary btn-sm">Check Answer</button>
-                </div>
+                        <button id="display-question" class="btn btn-primary btn-sm">Display Question</button>
+                        <button id="check-answer" class="btn btn-primary btn-sm">Check Answer</button>
+                    </div>
                 </div>
 
                 <div class="score-area">
@@ -107,7 +109,7 @@
     <!-- Bootstrap 5 Javescript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+    </script>
 
     <!-- JavaScript file -->
     <script src="assets/js/script.js"></script>
@@ -117,7 +119,7 @@
         document
             .querySelectorAll(".navbar-collapse .nav-link")
             .forEach((link) => {
-                link.addEventListener("click", function (e) {
+                link.addEventListener("click", function(e) {
                     let section = document.querySelector(e.target.getAttribute("href"));
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
