@@ -9,6 +9,10 @@ The quiz contains 20 questions displayed randomly.
 
 ![Responsive image for quiz.html](https://github.com/user-attachments/assets/376c51f1-79e2-4b43-b1b9-c26d9ee3dead)
 
+## Design
+
+
+
 ## Features HTML/CSS/BootStrap
 
 -A distinctive and customised logo (See above).<br>
@@ -42,7 +46,6 @@ The JavaScript code contains:<br>
 <strong>.The stylesheet contains no error.</strong><br><br>
 ![CSS Check](https://github.com/user-attachments/assets/e0d2c4f7-769e-42a8-aeb5-1140cc9ed7ea)
 
-
 ## Testing with Chrome Lighthouse:
 
 <strong>.The page "index.html"</strong><br><br>
@@ -56,16 +59,18 @@ Comment: The colors used are intended.
 ## Testing JavaScript with Js Hint:
 
 No error found, It contains only warnings.
-All semi-colons checked.
-
-(Main Image)
+All semi-colons checked.<br><br>
+![JavaScript](https://github.com/user-attachments/assets/e555dd78-75c6-4ccc-ba07-96ccd754eaf2)
 
 ## Testing JavaScript with Chrome Console:
 
-No error found
+<strong>No error found</strong>
+
+## Testing JavaScript with Sandbox:
+
 
 ## Credits
 
-.All pictures displayed and used are property of @TheCreativeNerds.ie (Me).
-.Initially purchased with a commercial licence and re-worked graphically for consumption.
-.Incrementscore functions, in the project, have been borrowed from the <strong>Love Math</strong> project.
+.All pictures displayed and used are property of @TheCreativeNerds.ie (Me).<br>
+.Initially purchased with a commercial licence and re-worked graphically for consumption.<br>
+.Incrementscore functions, in the project, have been borrowed from the <strong>Love Math</strong> project.<br>
