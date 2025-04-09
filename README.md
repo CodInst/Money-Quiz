@@ -31,27 +31,28 @@ The JavaScript code contains:<br>
 
 ## Testing with W3C HTML
 
-.The page "index.html" contains no error.<br>
+<strong>.The page "index.html" contains no error.</strong><br>
 ![index.html](https://github.com/user-attachments/assets/0f131ba6-51d4-4273-8f6a-5f88c36db867)
 <br>
-.The page "quiz.html" contains no error.<br>
+<strong>.The page "quiz.html" contains no error.</strong><br>
 ![quiz.html](https://github.com/user-attachments/assets/8251afb8-0900-4224-92e5-70b953a16a00)
 
-## Testing with CSS
+## Testing with W3C CSS
 
-.The stylesheet contains no error.
+<strong>.The stylesheet contains no error.</strong>
+![CSS Check](https://github.com/user-attachments/assets/e0d2c4f7-769e-42a8-aeb5-1140cc9ed7ea)
 
-(image)
 
-## Testing with Lighthouse:
+## Testing with Chrome Lighthouse:
 
-.The page "index.html"
+<strong>.The page "index.html"</strong>
 (Main Image)
-Comment: The colors used are intended.
+<strong>.Comment:</strong> The colors used are intended.
 
-.The page "quiz.html
-(Main Image)
-Comment: The colors used are intended.
+<strong>.The page "quiz.html</strong>
+![quiz.html](https://github.com/user-attachments/assets/073666a8-ba64-4339-9e61-f59dd829b65a)
+
+<strong>.Comment:</strong> The colors used are intended.
 
 ## Testing JavaScript with Js Hint:
 
