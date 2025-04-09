@@ -31,27 +31,26 @@ The JavaScript code contains:<br>
 
 ## Testing with W3C HTML
 
-<strong>.The page "index.html" contains no error.</strong><br>
+<strong>.The page "index.html" contains no error.</strong><br><br>
 ![index.html](https://github.com/user-attachments/assets/0f131ba6-51d4-4273-8f6a-5f88c36db867)
 <br>
-<strong>.The page "quiz.html" contains no error.</strong><br>
+<strong>.The page "quiz.html" contains no error.</strong><br><br>
 ![quiz.html](https://github.com/user-attachments/assets/8251afb8-0900-4224-92e5-70b953a16a00)
 
 ## Testing with W3C CSS
 
-<strong>.The stylesheet contains no error.</strong>
+<strong>.The stylesheet contains no error.</strong><br><br>
 ![CSS Check](https://github.com/user-attachments/assets/e0d2c4f7-769e-42a8-aeb5-1140cc9ed7ea)
 
 
 ## Testing with Chrome Lighthouse:
 
-<strong>.The page "index.html"</strong>
-(Main Image)
+<strong>.The page "index.html"</strong><br><br>
+(Main Image)<br><br>
 <strong>.Comment:</strong> The colors used are intended.
 
-<strong>.The page "quiz.html</strong>
-![quiz.html](https://github.com/user-attachments/assets/073666a8-ba64-4339-9e61-f59dd829b65a)
-
+<strong>.The page "quiz.html</strong><br><br>
+![quiz.html](https://github.com/user-attachments/assets/073666a8-ba64-4339-9e61-f59dd829b65a)<br><br>
 <strong>.Comment:</strong> The colors used are intended.
 
 ## Testing JavaScript with Js Hint:
