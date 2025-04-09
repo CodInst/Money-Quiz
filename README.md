@@ -67,8 +67,11 @@ All semi-colons checked.<br><br>
 
 <strong>No error found</strong>
 
-## Testing JavaScript with Sandbox:
+## Testing Project with Sandbox:
+The project has been tested via a sandbox:
 
+https://codinst.github.io/Money-Q/
+https://github.com/CodInst/Money-Q
 
 ## Credits
 
