@@ -1,7 +1,20 @@
+# The Money Quiz
 
 ![money-quiz](https://github.com/user-attachments/assets/05e17631-df46-4101-b1e5-63fe83e964fe)
 
-# The Money Quiz
+# Table of Contents
+
+1. <a name="about"/>[About](#about)</a>
+2. <a name="live"/>[Live Project](#live-project)</a>
+3. <a name="design"/>[Design](#design)</a>
+4. <a name="colours"/>[Colours](#colours)</a>
+5. <a name="deployment"/>[Deployment](#deployment)</a>
+6. <a name="features"/>[Features](#features)</a>
+7. <a name="codes"/>[Codes](#codes)</a>
+8. <a name="testing"/>[Testing](#testing)</a>
+9. <a name="credits"/>[Credits](#credits)</a>
+
+# About
 
 The Money Quiz will test your general knowledge about key historical events that have shaped our modern economic system.
 The quiz contains 20 questions displayed randomly.
@@ -9,6 +22,12 @@ The quiz contains 20 questions displayed randomly.
 ![Responsive image for index.html](https://github.com/user-attachments/assets/ceae7110-ca24-4830-8b01-daaba7eaf255)
 
 ![Responsive image for quiz.html](https://github.com/user-attachments/assets/376c51f1-79e2-4b43-b1b9-c26d9ee3dead)
+
+<a name="table" align="right">[Return Top](#table-of-contents)</a>
+
+# Live Project
+
+link to include
 
 ## Features HTML/CSS/BootStrap
 
