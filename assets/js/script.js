@@ -26,7 +26,7 @@ const quiz = {
   };
   
   /**
-   * The function below will be loading a the page
+   * The function below will be loading the page
    */
   document.addEventListener('DOMContentLoaded', function() {
     let formElement = document.getElementById("createAccountForm");
@@ -47,6 +47,7 @@ const quiz = {
   
         if (!specialChars.test(fullName) && (fullName !== ' ')) {
             feedbackName.innerHTML = `Welcome <strong>${fullName}</strong> to the <strong>Money Quiz</strong>`;
+            document.getElementById('question').innerHTML = `<span style="color: red">Click on "Start" below to begin</span>`;
             fullNameForm.remove();
             displayQuestion();
             checkAnswer();
