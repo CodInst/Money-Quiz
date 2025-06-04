@@ -1,23 +1,48 @@
-# The Money Quiz
+# <font color="red">The Money Quiz</font>
 
 ![money-quiz](https://github.com/user-attachments/assets/05e17631-df46-4101-b1e5-63fe83e964fe)
 
-# Table of Contents
+# <font color="red">Table of Contents</font>
 
 1. <a name="about"/>[About](#about)</a>
 2. <a name="live"/>[Live Project](#live-project)</a>
-3. <a name="design"/>[Design](#design)</a>
-4. <a name="colours"/>[Colours](#colours)</a>
-5. <a name="deployment"/>[Deployment](#deployment)</a>
+3. <a name="deployment"/>[Deployment](#deployment)</a>
+4. <a name="design"/>[Design](#design)</a>
+5. <a name="colours"/>[Colours](#colours)</a> 
 6. <a name="features"/>[Features](#features)</a>
 7. <a name="codes"/>[Codes](#codes)</a>
 8. <a name="testing"/>[Testing](#testing)</a>
 9. <a name="credits"/>[Credits](#credits)</a>
 
-# About
+# <font color="red">About</font>
 
-The Money Quiz will test your general knowledge about key historical events that have shaped our modern economic system.
+The Money Quiz will test your general knowledge about key historical events that have shaped our modern economic system.<br>
 The quiz contains 20 questions displayed randomly.
+
+<a name="table" align="right">[Return Top](#table-of-contents)</a>
+
+# <font color="red">Live Project</font>
+
+[Link](https://codinst.github.io/Money-Quiz/)
+
+<a name="table" align="right">[Return Top](#table-of-contents)</a>
+
+# <font color="red">Deployment</font>
+
+Using Github and Microsoft Visual Code to deploy my project
+
+### **My Repository**
+
+1. Created a new public local repository on my Github account, and copied the repository locally on my computer using Ms Code to start building the website.
+2. Regularly 
+
+### **Hosting**
+
+### **Deployment on Github**
+
+<a name="table" align="right">[Return Top](#table-of-contents)</a>
+
+# <font color="red">Design</font>
 
 ![Responsive image for index.html](https://github.com/user-attachments/assets/ceae7110-ca24-4830-8b01-daaba7eaf255)
 
@@ -25,9 +50,19 @@ The quiz contains 20 questions displayed randomly.
 
 <a name="table" align="right">[Return Top](#table-of-contents)</a>
 
-# Live Project
+# <font color="red">Colours</font>
 
-[Link](https://codinst.github.io/Money-Quiz/)
+**-Two main colours to contrast objects of the website, notably the menu and buttons**
+  - ![#1a4b82](https://placehold.co/15x15/1a4b82/1a4b82.png) `#1a4b82`
+  - ![#ead615](https://placehold.co/15x15/ead615/ead615.png) `#ead615`
+
+**-Background colour**
+  - ![#c8c9cc](https://placehold.co/15x15/c8c9cc/c8c9cc.png) `#c8c9cc`
+
+**-Three main colours for fonts**
+  - ![#000000](https://placehold.co/15x15/000000/000000.png) `#000000`
+  - ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) `#FFFFFF`
+  - ![#ff0000](https://placehold.co/15x15/ff0000/ff0000.png) `#ff0000`
 
 <a name="table" align="right">[Return Top](#table-of-contents)</a>
 
@@ -51,7 +86,9 @@ The JavaScript code contains:<br>
 .Only one function with one argument<br>
 .One global variable<br>
 
-## Testing with W3C HTML
+# <font color="red">Testing</font>
+
+## <font color="blue">Testing with W3C HTML</font>
 
 <strong>.The page "index.html" contains no error.</strong><br><br>
 ![index.html](https://github.com/user-attachments/assets/0f131ba6-51d4-4273-8f6a-5f88c36db867)
@@ -59,12 +96,12 @@ The JavaScript code contains:<br>
 <strong>.The page "quiz.html" contains no error.</strong><br><br>
 ![quiz.html](https://github.com/user-attachments/assets/8251afb8-0900-4224-92e5-70b953a16a00)
 
-## Testing with W3C CSS
+## <font color="blue">Testing with W3C CSS</font>
 
 <strong>.The stylesheet contains no error.</strong><br><br>
 ![CSS Check](https://github.com/user-attachments/assets/e0d2c4f7-769e-42a8-aeb5-1140cc9ed7ea)
 
-## Testing with Chrome Lighthouse:
+## <font color="blue">Testing with Chrome Lighthouse</font>
 
 <strong>.The page "index.html"</strong><br><br>
 ![index.html](https://github.com/user-attachments/assets/f42e5f00-7c12-4dc6-bbc9-87914bee7f6c)<br><br>
@@ -74,24 +111,28 @@ Comment: The colors used are intended.
 ![quiz.html](https://github.com/user-attachments/assets/073666a8-ba64-4339-9e61-f59dd829b65a)<br><br>
 Comment: The colors used are intended.
 
-## Testing JavaScript with Js Hint:
+## <font color="blue">Testing JavaScript with Js Hint</font>
 
 No error found, It contains only warnings.
 All semi-colons checked.<br><br>
 ![JavaScript](https://github.com/user-attachments/assets/e555dd78-75c6-4ccc-ba07-96ccd754eaf2)
 
-## Testing JavaScript with Chrome Console:
+## <font color="blue">Testing JavaScript with Chrome Console</font>
 
 <strong>No error found</strong>
 
-## Testing Project with Sandbox:
+## <font color="blue">Testing Project with Sandbox</font>
 The project has been tested via a sandbox:
 
 https://codinst.github.io/Money-Q/<br>
 https://github.com/CodInst/Money-Q
 
-## Credits
+<a name="table" align="right">[Return Top](#table-of-contents)</a>
+
+# <font color="red">Credits</font>
 
 .All pictures displayed and used are property of @TheCreativeNerds.ie (Me).<br>
 .Initially purchased with a commercial licence and re-worked graphically for consumption.<br>
 .Incrementscore functions, in the project, have been borrowed from the <strong>Love Math</strong> project.<br>
+
+<a name="table" align="right">[Return Top](#table-of-contents)</a>
