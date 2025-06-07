@@ -57,6 +57,9 @@ Using Github and Microsoft Visual Code to deploy my project
 
 ### **Deployment on Github**
 
+![Deployment Picture 1](https://github.com/user-attachments/assets/7bbe807d-9ee5-46c9-a33b-478ac6af8bc8)
+![Deployment Picture 2](https://github.com/user-attachments/assets/4630e194-3b4b-41d5-8830-a3ea7ca1629b)
+
 <a align="right">[Return Top](#table-of-contents)</a>
 
 # Design
