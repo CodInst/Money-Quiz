@@ -25,13 +25,13 @@
 The Money Quiz will test your general knowledge about key historical events that have shaped our modern economic system.<br>
 The quiz contains 20 questions displayed randomly.
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 # Live Project
 
 [Link](https://codinst.github.io/Money-Quiz/)
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 # Deployment
 
@@ -57,7 +57,7 @@ Using Github and Microsoft Visual Code to deploy my project
 
 ### **Deployment on Github**
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 # Design
 
@@ -65,7 +65,7 @@ Using Github and Microsoft Visual Code to deploy my project
 
 ![Responsive image for quiz.html](https://github.com/user-attachments/assets/376c51f1-79e2-4b43-b1b9-c26d9ee3dead)
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 # Colours
 
@@ -81,7 +81,7 @@ Using Github and Microsoft Visual Code to deploy my project
   - ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) `#FFFFFF`
   - ![#ff0000](https://placehold.co/15x15/ff0000/ff0000.png) `#ff0000`
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 ## Features
 
@@ -97,7 +97,7 @@ One page describing the rules and the nature of the quiz
 One page to run the quiz
 ![page showing the quiz](https://github.com/user-attachments/assets/f31e3926-3cf5-4d21-9226-37e1c995942b)
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 # Testing
 
@@ -109,14 +109,14 @@ One page to run the quiz
 <strong>.The page "quiz.html" contains no error.</strong><br><br>
 ![quiz.html](https://github.com/user-attachments/assets/8251afb8-0900-4224-92e5-70b953a16a00)
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 ## Testing with W3C CSS
 
 <strong>.The stylesheet contains no error.</strong><br><br>
 ![CSS Check](https://github.com/user-attachments/assets/e0d2c4f7-769e-42a8-aeb5-1140cc9ed7ea)
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 ## Testing With Chrome Lighthouse
 
@@ -128,7 +128,7 @@ Comment: The colors used are intended.
 ![quiz.html](https://github.com/user-attachments/assets/073666a8-ba64-4339-9e61-f59dd829b65a)<br><br>
 Comment: The colors used are intended.
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 ## Testing JavaScript With Js Hint
 
@@ -136,13 +136,13 @@ No error found, It contains only warnings.
 All semi-colons checked.<br><br>
 ![JavaScript](https://github.com/user-attachments/assets/e555dd78-75c6-4ccc-ba07-96ccd754eaf2)
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 ## Testing JavaScript With Chrome Console
 
 <strong>No error found</strong>
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 ## Testing Project With Sandbox
 The project has been tested via a sandbox:
@@ -150,7 +150,7 @@ The project has been tested via a sandbox:
 https://codinst.github.io/Money-Q/<br>
 https://github.com/CodInst/Money-Q
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
 
 # Credits
 
@@ -158,4 +158,4 @@ https://github.com/CodInst/Money-Q
 .Initially purchased with a commercial licence and re-worked graphically for consumption.<br>
 .Incrementscore functions, in the project, have been borrowed from the <strong>Love Math</strong> project.<br>
 
-<a name="table" align="right">[Return Top](#table-of-contents)</a>
+<a align="right">[Return Top](#table-of-contents)</a>
