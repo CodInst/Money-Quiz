@@ -83,13 +83,10 @@ const quiz = {
     document.getElementById('answer-box').focus();
   
     let displayQuestionButton = document.getElementById("display-question");
-    displayQuestionButton.addEventListener("click", function() {
-  
-        let RandomArray = selectRandomQuestion();
-        document.getElementById('question').innerText = RandomArray[1];
-        document.getElementById('question').value = RandomArray[0];
-    });
-  
+    let RandomArray = selectRandomQuestion();
+    document.getElementById('question').innerText = RandomArray[1];
+    document.getElementById('question').value = RandomArray[0];
+    
   }
   
   /**
