@@ -46,7 +46,6 @@ const quiz = {
   
         if (!specialChars.test(fullName) && (fullName !== ' ')) {
             feedbackName.innerHTML = `Welcome <strong>${fullName}</strong> to the <strong>Money Quiz</strong>`;
-            document.getElementById('question').innerHTML = `<span style="color: red">Click on "Start" below to begin</span>`;
             fullNameForm.remove();
             displayQuestion();
             checkAnswer();
@@ -101,10 +100,8 @@ const quiz = {
         let isCorrect = userAnswer === valueRandomQuestion;
   
         if (isCorrect) {
-            alert("The answer is correct.");
             incrementRightAnswer();
         } else {
-            alert(`You answered ${userAnswer}. The correct answer was ${valueRandomQuestion}.`);
             incrementWrongAnswer();
         }
   
