@@ -114,6 +114,8 @@ const quiz = {
         //Bring the cursor into the "Answer field" and reset the field
         document.getElementById('answer-box').value = '';
         document.getElementById('answer-box').focus();
+
+        displayQuestion();
     });
   }
   
