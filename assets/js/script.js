@@ -1,7 +1,6 @@
 /**
  * Unique global variable representing the object
  */
-
 const quiz = {
     1024: 'What is the earliest record of money made from paper?',
     1385: "When was the first monetary union in the world, called the 'RHENISH Monetary union', created?",
