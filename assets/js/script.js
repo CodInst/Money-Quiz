@@ -102,10 +102,10 @@ function checkAnswer() {
 
         if (isCorrect) {
             incrementRightAnswer();
-            document.getElementById('answerToQuestion').innerHTML = `Correct, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
+            document.getElementById('answerToQuestion').innerHTML = `<strong>Correct</strong>, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
         } else {
             incrementWrongAnswer();
-            document.getElementById('answerToQuestion').innerHTML = `Incorrect, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
+            document.getElementById('answerToQuestion').innerHTML = `<strong>Incorrect</strong>, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
         }
 
         // Delete the key/value pair used from the Object to avoid being used again.
