@@ -93,14 +93,19 @@ function displayQuestion() {
 function checkAnswer() {
     let checkAnswerButton = document.getElementById("check-answer");
     checkAnswerButton.addEventListener("click", function() {
+        //The variable below contains the question displayed
+        let randomQuestion = document.getElementById('question').innerText
+        //The variable below contains the answer of the question displayed
         let valueRandomQuestion = parseInt(document.getElementById('question').value);
         let userAnswer = parseInt(document.getElementById("answer-box").value);
         let isCorrect = userAnswer === valueRandomQuestion;
 
         if (isCorrect) {
             incrementRightAnswer();
+            document.getElementById('answerToQuestion').innerHTML = `Correct, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
         } else {
             incrementWrongAnswer();
+            document.getElementById('answerToQuestion').innerHTML = `Incorrect, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
         }
 
         // Delete the key/value pair used from the Object to avoid being used again.
