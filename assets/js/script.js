@@ -22,20 +22,20 @@ const quiz = {
     2008: "When did The 'Global Financial Crisis' occur?",
     2010: "When did The 'Sovereign Debt Crisis' start?",
     2016: 'When did the Brexit occur?'
-  };
-  
-  /**
-   * The function below will be loading the page
-   */
-  document.addEventListener('DOMContentLoaded', function() {
+};
+
+/**
+ * The function below will be loading the page
+ */
+document.addEventListener('DOMContentLoaded', function() {
     let formElement = document.getElementById("createAccountForm");
     formElement.addEventListener('submit', handleSubmit);
     document.getElementById('question').innerHTML = `<span style="color: red">To start the game, validate a name above.</span>`;
-  
+
     //Bring the cursor into the "Full Name field" and reset the field
     document.getElementById('fullname').value = '';
     document.getElementById('fullname').focus();
-  
+
     function handleSubmit(e) {
         e.preventDefault();
         let formData = e.target;
@@ -43,7 +43,7 @@ const quiz = {
         let feedbackName = document.getElementById('feedbackName');
         let fullNameForm = document.getElementById('createAccountForm');
         const specialChars = /[`!@#$%^&*()_\+=\[\]{};':"\\|,.<>\/?~]/;
-  
+
         if (!specialChars.test(fullName) && (fullName !== ' ')) {
             feedbackName.innerHTML = `Welcome <strong>${fullName}</strong> to the <strong>Money Quiz</strong>`;
             fullNameForm.remove();
@@ -53,14 +53,14 @@ const quiz = {
             feedbackName.innerHTML = '<span style="color: red">The name can not include <strong>special characters</strong>.<br><strong>Space</strong> may be used for composed names.</span>';
         }
     }
-  
-  
-  });
-  
-  /**
-  * The function will pick randomly a question from the Object Quiz
-  */
-  function selectRandomQuestion() {
+
+
+});
+
+/**
+ * The function will pick randomly a question from the Object Quiz
+ */
+function selectRandomQuestion() {
     //Check if the object contains key/value pairs
     if (Object.keys(quiz).length !== 0) {
         let randomIndexOfObject = parseInt(Object.keys(quiz)[Math.floor(Math.random() * Object.keys(quiz).length)]);
@@ -68,78 +68,72 @@ const quiz = {
         return [randomIndexOfObject, valueOfTheRandomIndex];
     } else {
         quizEnd();
-        alert(`You have been through all the questions`);
     }
-  
-  }
-  
-  /**
-  * The function will interact with the Button "Display Question"
-  */
-  function displayQuestion() {
+
+}
+
+/**
+ * The function will interact with the Button "Display Question"
+ */
+function displayQuestion() {
     //Bring the cursor into "Answer field" and reset the field
     document.getElementById('answer-box').value = '';
     document.getElementById('answer-box').focus();
-  
+
     let displayQuestionButton = document.getElementById("display-question");
     let RandomArray = selectRandomQuestion();
     document.getElementById('question').innerText = RandomArray[1];
     document.getElementById('question').value = RandomArray[0];
-  
-  }
-  
-  /**
-  * The function will interact with the Button "Check Answer"
-  */
-  function checkAnswer() {
-  
+
+}
+
+/**
+ * The function will interact with the Button "Check Answer"
+ */
+function checkAnswer() {
     let checkAnswerButton = document.getElementById("check-answer");
     checkAnswerButton.addEventListener("click", function() {
         let valueRandomQuestion = parseInt(document.getElementById('question').value);
         let userAnswer = parseInt(document.getElementById("answer-box").value);
         let isCorrect = userAnswer === valueRandomQuestion;
-  
+
         if (isCorrect) {
             incrementRightAnswer();
         } else {
             incrementWrongAnswer();
         }
-  
+
         // Delete the key/value pair used from the Object to avoid being used again.
         delete quiz[valueRandomQuestion];
-  
+
         //Bring the cursor into the "Answer field" and reset the field
         document.getElementById('answer-box').value = '';
         document.getElementById('answer-box').focus();
 
         displayQuestion();
     });
-  }
-  
-  /**
-  * Gets the current score from the DOM and increments it by 1
-  */
-  function incrementRightAnswer() {
-  
+}
+
+/**
+ * Gets the current score from the DOM and increments it by 1
+ */
+function incrementRightAnswer() {
     let oldScore = parseInt(document.getElementById("rightAnswer").innerText);
     document.getElementById("rightAnswer").innerText = ++oldScore;
-  
-  }
-  
-  /**
-  * Gets the current tally of incorrect answers from the DOM and increments it by 1
-  */
-  function incrementWrongAnswer() {
-  
+}
+
+/**
+ * Gets the current tally of incorrect answers from the DOM and increments it by 1
+ */
+function incrementWrongAnswer() {
     let oldScore = parseInt(document.getElementById("wrongAnswer").innerText);
     document.getElementById("wrongAnswer").innerText = ++oldScore;
-  
-  }
-  
-  /**
-  * Outcome of the quiz
-  */
-  function quizEnd() {
+}
+
+/**
+ * Outcome of the quiz
+ */
+function quizEnd() {
     let winner = parseInt(document.getElementById("rightAnswer").innerText);
     let looser = parseInt(document.getElementById("wrongAnswer").innerText);
     if (winner > looser) {
@@ -151,4 +145,4 @@ const quiz = {
     } else {
         alert('An unexpected error occurred');
     }
-  }
+}
