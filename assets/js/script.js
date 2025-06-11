@@ -100,22 +100,26 @@ function checkAnswer() {
         let userAnswer = parseInt(document.getElementById("answer-box").value);
         let isCorrect = userAnswer === valueRandomQuestion;
 
-        if (isCorrect) {
-            incrementRightAnswer();
-            document.getElementById('answerToQuestion').innerHTML = `<strong>Correct</strong>, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
+        if (!Number.isNaN(userAnswer)) {
+            if (isCorrect) {
+                incrementRightAnswer();
+                document.getElementById('answerToQuestion').innerHTML = `<strong>Correct</strong>, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
+            } else {
+                incrementWrongAnswer();
+                document.getElementById('answerToQuestion').innerHTML = `<strong>Incorrect</strong>, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
+            }
+
+            // Delete the key/value pair used from the Object to avoid being used again.
+            delete quiz[valueRandomQuestion];
+
+            //Bring the cursor into the "Answer field" and reset the field
+            document.getElementById('answer-box').value = '';
+            document.getElementById('answer-box').focus();
+
+            displayQuestion();
         } else {
-            incrementWrongAnswer();
-            document.getElementById('answerToQuestion').innerHTML = `<strong>Incorrect</strong>, the anwser for <em>${randomQuestion}</em> was <strong>${valueRandomQuestion}</strong>`;
+            document.getElementById('answerToQuestion').innerHTML = `<span style="color: red"><strong>Please Enter a Number in the above field</strong></span>`;
         }
-
-        // Delete the key/value pair used from the Object to avoid being used again.
-        delete quiz[valueRandomQuestion];
-
-        //Bring the cursor into the "Answer field" and reset the field
-        document.getElementById('answer-box').value = '';
-        document.getElementById('answer-box').focus();
-
-        displayQuestion();
     });
 }
 
