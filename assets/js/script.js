@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let fullNameForm = document.getElementById('createAccountForm');
         const specialChars = /[`!@#$%^&*()_\+=\[\]{};':"\\|,.<>\/?~]/;
 
-        if (!specialChars.test(fullName) && (fullName !== ' ')) {
+        if (!specialChars.test(fullName) && (fullName.trim().length !== 0)) {
             feedbackName.innerHTML = `Welcome <strong>${fullName}</strong> to the <strong>Money Quiz</strong>`;
             fullNameForm.remove();
             displayQuestion();
