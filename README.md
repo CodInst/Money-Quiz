@@ -17,8 +17,10 @@
       - <a>[Testing with Chrome Lighthouse](#testing-with-chrome-lighthouse)</a>
       - <a>[Testing JavaScript With Js Hint](#testing-javascript-with-js-hint)</a>
       - <a>[Testing JavaScript With Chrome Console](#testing-javascript-with-chrome-console)</a>
+      - <a>[Testing Manual](#testing-manual)</a>
       - <a>[Testing Project With Sandbox](#testing-project-with-sandbox)</a>
-9. <a>[Credits](#credits)</a>
+9. <a>[Project Revision](#project-revision)</a>
+10. <a>[Credits](#credits)</a>
 
 # About
 
@@ -86,19 +88,33 @@ Using Github and Microsoft Visual Code to deploy my project
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
-## Features
+# Features
 
--A distinctive and customised logo (See above).<br>
-HTML/CSS/BootStrap
--An extensive, responsive and colourful website and menu: The website combined HTML, CSS and bootstrap
+**-Logo**<br>
+A distinctive and customised logo<br>
+![money-quiz](https://github.com/user-attachments/assets/05e17631-df46-4101-b1e5-63fe83e964fe)
+
+**-Menu**<br>
+An extensive, responsive and colourful website and menu: The website combined <strong>HTML, CSS and bootstrap</strong>
 ![Menu bootstrap](https://github.com/user-attachments/assets/4c9701b7-154a-42ab-b84c-4c954aa5cf39)
 
--The website contains <strong>two pages</strong>:<br>
-One page describing the rules and the nature of the quiz
-![Describe the rules](https://github.com/user-attachments/assets/44c04d94-567a-41a5-bd41-9c62226901d1)
+**-Pages**<br>
+The website contains <strong>two pages</strong>:<br>
+ - One page describing the rules and the nature of the quiz<br>
+![Describe the rules](https://github.com/user-attachments/assets/44c04d94-567a-41a5-bd41-9c62226901d1)<br>
 
-One page to run the quiz
-![page showing the quiz](https://github.com/user-attachments/assets/f31e3926-3cf5-4d21-9226-37e1c995942b)
+ - One page to run the quiz<br>
+![page showing the quiz](https://github.com/user-attachments/assets/a1395042-1a7a-4464-ad1e-a02c9c1276c7)<br>
+
+**-Mobile Responsiveness**<br>
+The website is built for mobile users<br>
+![Mobile Page 1](https://github.com/user-attachments/assets/6d007f6d-2313-4bdd-ad46-9ccb9d157245)<br>
+
+![Mobile Page 2](https://github.com/user-attachments/assets/dcfba1f3-7e3f-468e-bbbb-5fa4301d67dc)<br>
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+# Codes
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
@@ -147,11 +163,22 @@ All semi-colons checked.<br><br>
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
+## Testing Manual
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
 ## Testing Project With Sandbox
 The project has been tested via a sandbox:
 
 https://codinst.github.io/Money-Q/<br>
 https://github.com/CodInst/Money-Q
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+# Project Revision
+
+The original project before revision can be found at [Link](https://codinst.github.io/Money-Q/). Find below the changes dones:<br>
+
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
