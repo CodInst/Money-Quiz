@@ -17,9 +17,8 @@
       - <a>[Testing with Chrome Lighthouse](#testing-with-chrome-lighthouse)</a>
       - <a>[Testing JavaScript With Js Hint](#testing-javascript-with-js-hint)</a>
       - <a>[Testing JavaScript With Chrome Console](#testing-javascript-with-chrome-console)</a>
-      - <a>[Testing Manual](#testing-manual)</a>
       - <a>[Testing Project With Sandbox](#testing-project-with-sandbox)</a>
-9. <a>[Project Revision](#project-revision)</a>
+9. <a>[Project Revision and Manual Testing](#project-revision-and-manual-testing)</a>
 10. <a>[Credits](#credits)</a>
 
 # About
@@ -116,6 +115,21 @@ The website is built for mobile users<br>
 
 # Codes
 
+ <strong>script.js</strong> contains:<br>
+-  ` const quiz ` is the only <strong>global variable</strong> acting like a database. The type is an object. It includes 20 questions and dates.<br>
+-  <strong>Seven functions:</strong><br>
+	-  ` document.addEventListener('DOMContentLoaded', function(){}) ` A general function that call the other functions and got loaded with the page.<br>
+	-  ` selectRandomQuestion() ` will pick randomly a question from the Object Quiz.<br> 
+	-  ` displayQuestion() ` will display a new question.<br>
+	-  ` checkAnswer() ` will interact with the Button "Check Answer"<br>
+	-  ` incrementRightAnswer() ` will get the current score from the DOM and increments it by 1<br>
+	-  ` incrementWrongAnswer() ` will get the current tally of incorrect answers from the DOM and increments it by 1<br>
+	-  ` quizEnd() ` will close the quiz<br>
+- <strong>Three safe-guards</strong> when populating the fields:<br>
+	-  A variable ` specialChars ` to prevent the use of special characters in name field at Line 45.<br>
+	-  ` (fullName.trim().length !== 0) ` prevent the validation of the name field when there is only the character space used at Line 45.<br>
+	-  ` (!Number.isNaN(userAnswer)) ` only allows the validation of the answer field when a number is used at Line 103.<br>
+
 <a align="right">[Return Top](#table-of-contents)</a>
 
 # Testing
@@ -163,10 +177,6 @@ All semi-colons checked.<br><br>
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
-## Testing Manual
-
-<a align="right">[Return Top](#table-of-contents)</a>
-
 ## Testing Project With Sandbox
 The project has been tested via a sandbox:
 
@@ -175,10 +185,10 @@ https://github.com/CodInst/Money-Q
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
-# Project Revision
+# Project Revision and Manual Testing
 
-The original project before revision can be found at [Link](https://codinst.github.io/Money-Q/). Find below the changes dones:<br>
-
+The previous version of the project can be found at [Link](https://codinst.github.io/Money-Q/).<br>
+Further manual testing brought about the following changes:<br>
 
 <a align="right">[Return Top](#table-of-contents)</a>
 

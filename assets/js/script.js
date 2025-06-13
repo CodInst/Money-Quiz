@@ -73,7 +73,7 @@ function selectRandomQuestion() {
 }
 
 /**
- * The function will interact with the Button "Display Question"
+ * The function will display a new question
  */
 function displayQuestion() {
     //Bring the cursor into "Answer field" and reset the field
